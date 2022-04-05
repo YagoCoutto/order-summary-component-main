@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -8,30 +8,54 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <div class="container">
+      <div class="card">
 
-  Order Summary
+        <div class="image">
+          <img src="./images/illustration-hero.svg" alt="illustration-hero" id="img01">
+        </div>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+        <div class="conteudo">
+          <h2><strong>Order Summary</strong></h2>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+        </div>
 
-  Annual Plan
-  $59.99/year
+        <div class="box">
+          <img src="./images/icon-music.svg" alt=""><p>
+            <strong>Annual Plan</strong> <br>
+            $59.99/year
+          </p>
+          <a href="#" id="Change"><strong>Change</strong>
+          </a>
+        </div>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        
+          <div class="centralizar-button">
+            <button>
+              <a href="#"><strong>Proceed to Payment</strong></a>
+            </button>
+            <a href="#" class="cancel-color"><strong>Cancel Order</strong></a>
+          </div>
+        
+          
+        </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://www.instagram.com/yagocoutto/">YagoCoutto</a>.
+        
+      </div>
+      
+    </div>
+    
+  </body>
 </html>
